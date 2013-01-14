@@ -44,8 +44,12 @@
 | The $active_record variables lets you determine whether or not to load
 | the active record class
 */
+if ($_SERVER['SERVER_NAME'] == 'teammate') {
+    $active_group = 'dev';
+} else { 
+    $active_group = 'default';
+}
 
-$active_group = 'dev';
 $active_record = TRUE;
 
 $db['dev']['hostname'] = 'localhost';
@@ -64,11 +68,11 @@ $db['dev']['swap_pre'] = '';
 $db['dev']['autoinit'] = TRUE;
 $db['dev']['stricton'] = FALSE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
-$db['default']['dbdriver'] = 'mysql';
+$db['default']['hostname'] = 'updb1.up.ist.psu.edu';
+$db['default']['username'] = 'jar5757';
+$db['default']['password'] = 'wRAxeya3';
+$db['default']['database'] = 'jar5757';
+$db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;

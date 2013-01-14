@@ -7,8 +7,8 @@
 | These details are used in emails sent by authentication library.
 |--------------------------------------------------------------------------
 */
-$config['website_name'] = 'PSL Source Administrator Console';
-$config['webmaster_email'] = 'jamie@deliverypath.com';
+$config['website_name'] = 'TeamMate';
+$config['webmaster_email'] = 'jar5757@psu.edu';
 
 /*
 |--------------------------------------------------------------------------
@@ -84,7 +84,7 @@ $config['login_attempt_expire'] = 60*60*24;
 | 'autologin_cookie_life' = Auto login cookie life before expired. Default is 2 months (60*60*24*31*2).
 |--------------------------------------------------------------------------
 */
-$config['autologin_cookie_name'] = 'psl_autologin';
+$config['autologin_cookie_name'] = 'teammate_autologin';
 $config['autologin_cookie_life'] = 60*60*24*31*2;
 
 /*

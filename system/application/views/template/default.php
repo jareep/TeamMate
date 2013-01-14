@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link type="text/css" rel="stylesheet" media="screen" href="/css/all.css">
+    <link type="text/css" rel="stylesheet" media="screen" href="css/all.css">
 
 <title>
     <?php echo @$title; ?>

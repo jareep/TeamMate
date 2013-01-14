@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller
+class Welcome extends MY_Controller
 {
 	function __construct()
 	{
@@ -15,9 +15,10 @@ class Welcome extends CI_Controller
 		if (!$this->tank_auth->is_logged_in()) {
 			redirect('/auth/login/');
 		} else {
-			$data['user_id']	= $this->tank_auth->get_user_id();
-			$data['username']	= $this->tank_auth->get_username();
-			$this->load->view('welcome', $data);
+			$data['user_id']            = $this->tank_auth->get_user_id();
+			$data['username']           = $this->tank_auth->get_username();
+			$data['main_content_view']  = $this->load->view('welcome', $data, true);
+                        $this->render_template($data);
 		}
 	}
 }

@@ -31,6 +31,7 @@ $captcha = array(
 	'maxlength'	=> 8,
 );
 ?>
+<!--
 <?php echo form_open($this->uri->uri_string()); ?>
 <table>
 	<tr>
@@ -88,6 +89,38 @@ $captcha = array(
 			<?php if ($this->config->item('allow_registration', 'tank_auth')) echo anchor('/auth/register/', 'Register'); ?>
 		</td>
 	</tr>
-</table>
-<?php echo form_submit('submit', 'Let me in'); ?>
+</table> -->
+
+<div class="container_16 clearfix" id="wrapper">
+      <div class="grid_16" id="content">
+        <div style="width: 500px; margin: 0 auto;" class="box form fullwidth">
+            <div class="header">
+                Login
+            </div>
+        <div class="content">
+
+<?php echo form_open($this->uri->uri_string()); ?>
+      <?php echo form_label($login_label, $login['id']); ?>
+      <?php echo form_input($login); ?>
+      <?php echo form_label('Password', $password['id']); ?>
+      <?php echo form_password($password); ?>
+      <?php echo anchor('/auth/forgot_password/', 'Forgot your password?'); ?>
+      <?php //echo form_checkbox($remember); ?>
+      <?php //echo form_label('Remember me', $remember['id']); ?>
+      <br>
+
+    <div class="clearfix">
+      <button class="fr slick-black">Login</button>
+    </div>
+
+<?php echo form_close(); ?>
+    </div>
+</div>
+
+
+      </div>
+  </div>
+
+
+<!-- <?php echo form_submit('submit', 'Let me in'); ?> -->
 <?php echo form_close(); ?>

@@ -297,14 +297,14 @@ a {
     padding: 6px 25px 2px;
 }
 #header {
-    background: url("/images/header-middle.gif") repeat-x scroll center bottom #404040;
+    background: url("/jar5757/ist440w/images/header-middle.gif") repeat-x scroll center bottom #404040;
     border-bottom: 1px solid #050505;
     border-top: 1px solid #606060;
     height: 70px;
     padding: 0 25px;
 }
 #header-bottom {
-    background: url("/images/header-bottom.gif") repeat-x scroll center bottom #313131;
+    background: url("/jar5757/ist440w/images/header-bottom.gif") repeat-x scroll center bottom #313131;
     border-bottom: 1px solid #545454;
     border-top: 1px solid #545454;
     color: #FFFFFF;
@@ -336,7 +336,7 @@ a {
     margin-left: 20px;
 }
 #navmenu2 li .search-bar {
-    background: url("/images/zoom.png") no-repeat scroll 5px center #EEEEEE;
+    background: url("/jar5757/ist440w/images/zoom.png") no-repeat scroll 5px center #EEEEEE;
     border: 1px solid #000000;
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
     font-size: 10px;
@@ -405,7 +405,7 @@ a {
     margin-bottom: 15px;
 }
 .box .header {
-    background-image: url("/images/box_header.gif");
+    background-image: url("/jar5757/ist440w/images/box_header.gif");
     background-repeat: repeat-x;
     border-bottom: 1px solid #CCCCCC;
     border-top-left-radius: 5px;
@@ -540,7 +540,7 @@ td.options a {
     margin-bottom: 15px;
 }
 .small_box .header {
-    background-image: url("/images/small_box_header.gif");
+    background-image: url("/jar5757/ist440w/images/small_box_header.gif");
     background-repeat: repeat-x;
     border-bottom: 1px solid #CCCCCC;
     border-top-left-radius: 5px;
@@ -803,7 +803,7 @@ button.slick-black.large, input.large[type="submit"] {
     text-align: center;
 }
 .tc-header-l {
-    background-image: url("/images/thingerlycalendar/arrow-left.png");
+    background-image: url("/jar5757/ist440w/images/thingerlycalendar/arrow-left.png");
     background-repeat: no-repeat;
     cursor: pointer;
     float: left;
@@ -813,7 +813,7 @@ button.slick-black.large, input.large[type="submit"] {
     width: 10%;
 }
 .tc-header-r {
-    background-image: url("/images/thingerlycalendar/arrow-right.png");
+    background-image: url("/jar5757/ist440w/images/thingerlycalendar/arrow-right.png");
     background-repeat: no-repeat;
     cursor: pointer;
     float: right;

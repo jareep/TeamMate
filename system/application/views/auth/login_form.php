@@ -105,6 +105,7 @@ $captcha = array(
       <?php echo form_label('Password', $password['id']); ?>
       <?php echo form_password($password); ?>
       <?php echo anchor('/auth/forgot_password/', 'Forgot your password?'); ?>
+      <?php if ($this->config->item('allow_registration', 'tank_auth')) echo anchor('/auth/register/', 'Register'); ?>
       <?php //echo form_checkbox($remember); ?>
       <?php //echo form_label('Remember me', $remember['id']); ?>
       <br>
